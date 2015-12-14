@@ -21,7 +21,7 @@ void Test_Slot::OnSignalEmit(){
 int main()
 {
 	Test_Slot s;
-//	s.emit();
+	s.emit();
 	return 0;
 }
 

@@ -1,10 +1,12 @@
-#ifndef _TEST_STRING_H
-#define _TEST_STRING_H
+#ifndef _TEST_SIGNAL_H
+#define _TEST_SIGNAL_H
+
+#define _SIGSLOT_HAS_POSIX_THREADS
 
 #include<iostream>
 #include"sigslot.h"
 using namespace std;
-#define _SIGSLOT_HAS_POSIX_THREADS
+
 class TestEvent
 {
 public:
